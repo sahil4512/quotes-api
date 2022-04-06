@@ -61,3 +61,17 @@ p {
   font-size: 1.5rem;
   display: none;
 }
+
+@media screen and (max-width: 640px) {
+  p {
+    text-align: inherit;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  p {
+    text-align: inherit;
+    line-height: 1.5;
+  }
+}
